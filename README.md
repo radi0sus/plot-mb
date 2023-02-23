@@ -53,6 +53,7 @@ The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0
 ```console
 python3 orca-mb.py test.out -w 0.3 -s
 ```
+Open `test.out`, select a line width of 0.3 (`-w 0.3`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test.png`.
 Output:
 ```console
 ==========================================================
