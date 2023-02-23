@@ -33,3 +33,17 @@ it will save the plot as PNG:
 ## Script options
 There are numerous ways to configure the spectrum in the script:
 Check `# plot config section - configure here` in the script. 
+
+The delimiter for the line spectrum export can be changed by changing the value of `export_delim =`.
+
+## Code options
+Colors, line thickness, line styles and 
+more can be changed in the code directly.
+
+## Remarks
+The PNG file will be replaced everytime you start the script with the same output file. 
+If you want to keep the file, you have to rename it. 
+
+The script can only handle doublets.
+
+The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C to achieve reasonable results.
