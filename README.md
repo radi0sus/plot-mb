@@ -47,3 +47,20 @@ If you want to keep the file, you have to rename it.
 The script can only handle doublets.
 
 The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C to achieve reasonable results.
+
+## Examples
+
+```console
+python3 orca-mb.py test.out -w 0.3 -s
+```
+Output:
+```console
+==========================================================
+δ = ɑ(ρ(0) - C) + β (+ shift)
+ɑ=-0.366 C=11810 β=2.852 shift=0
+==========================================================
+Fe0: δ=0.47 mm/s ΔEQ=3.45 mm/s ρ(0)=11816.51263 a.u.⁻³
+Fe1: δ=0.27 mm/s ΔEQ=1.96 mm/s ρ(0)=11817.06310 a.u.⁻³
+==========================================================
+```
+![Example 1](/examples/example1.png)
