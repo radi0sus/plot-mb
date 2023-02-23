@@ -83,3 +83,19 @@ Fe4: δ=1.74 mm/s ΔEQ=-2.90 mm/s ρ(0)=11813.03611 a.u.⁻³
 ==========================================================
 ```
 ![Example 2](/examples/example2.png)
+
+### Example 3:
+```console
+python3 orca-mb.py test.out -xmin -12 -xmax 12 -sh 2 -s
+```
+Open `test.out`, start the spectrum at -12 mm/s and end at 12 mm/s (`-xmin -12 -xmax 12`), shift δ by 2 mm/s (`-sh 2`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test.png`.
+Output:
+```console
+==========================================================
+δ = ɑ(ρ(0) - C) + β (+ shift)
+ɑ=-0.366 C=11810 β=2.852 shift=2.0
+==========================================================
+Fe0: δ=3.78 mm/s ΔEQ=-0.00 mm/s ρ(0)=11812.93015 a.u.⁻³
+==========================================================
+```
+![Example 3](/examples/example3.png)
