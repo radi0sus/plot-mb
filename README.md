@@ -102,4 +102,4 @@ Fe0: δ=3.78 mm/s ΔEQ=-0.00 mm/s ρ(0)=11812.93015 a.u.⁻³
 
 ### Example 4:
 
-![Example 3](/examples/show-use2.png)
+![Example 3](/examples/show-use2.gif)
