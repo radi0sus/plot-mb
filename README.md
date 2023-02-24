@@ -44,9 +44,9 @@ more can be changed in the code directly.
 The PNG file will be replaced everytime you start the script with the same output file. 
 If you want to keep the file, you have to rename it. 
 
-The script can only handle doublets.
+The script can only handle singlets and doublets.
 
-The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C to achieve reasonable results.
+The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C according to functional and basis to achieve reasonable results.
 
 ## Examples
 ### Example 1:
