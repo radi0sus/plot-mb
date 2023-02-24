@@ -53,7 +53,7 @@ The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0
 ```console
 python3 orca-mb.py test.out -w 0.3 -s
 ```
-Open `test.out`, select a line width of 0.3 (`-w 0.3`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test.png`.
+Open `test.out`, select a line width of 0.3 (`-w 0.3`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
 ==========================================================
@@ -70,7 +70,7 @@ Fe1: δ=0.27 mm/s ΔEQ=1.96 mm/s ρ(0)=11817.06310 a.u.⁻³
 ```console
 python3 orca-mb.py test.out -s -e
 ```
-Open `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `Fe0.dat`, `Fe1.dat`, `Fe4.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. A PNG of the spectrum is saved as `test.png`.
+Open `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `Fe0.dat`, `Fe1.dat`, `Fe4.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
 ==========================================================
@@ -88,7 +88,7 @@ Fe4: δ=1.74 mm/s ΔEQ=-2.90 mm/s ρ(0)=11813.03611 a.u.⁻³
 ```console
 python3 orca-mb.py test.out -xmin -12 -xmax 12 -sh 2 -s
 ```
-Open `test.out`, start the spectrum at -12 mm/s and end at 12 mm/s (`-xmin -12 -xmax 12`), shift δ by 2 mm/s (`-sh 2`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test.png`.
+Open `test.out`, start the spectrum at -12 mm/s and end at 12 mm/s (`-xmin -12 -xmax 12`), shift δ by 2 mm/s (`-sh 2`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
 ==========================================================
@@ -101,5 +101,9 @@ Fe0: δ=3.78 mm/s ΔEQ=-0.00 mm/s ρ(0)=11812.93015 a.u.⁻³
 ![Example 3](/examples/example3.png)
 
 ### Example 4:
-
-![Example 3](/examples/show-use2.gif)
+```console
+python3 orca-mb.py test.out -s
+```
+Open `test.out` and show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
+Output:
+![Example 4](/examples/show-use2.gif)
