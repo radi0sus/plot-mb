@@ -106,4 +106,5 @@ python3 orca-mb.py test.out -s
 ```
 Open `test.out` and show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
 Output:
+
 ![Example 4](/examples/show-use2.gif)
