@@ -76,7 +76,7 @@ Output:
 ```console
 python3 plot-mb.py test.out -s -e
 ```
-Open the ORCA output file `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `Fe0.dat`, `Fe1.dat`, `Fe4.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. 
+Open the ORCA output file `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `0Fe.dat`, `1Fe.dat`, `4Fe.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. 
 A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
