@@ -26,7 +26,7 @@ it will save the plot as PNG:
 - `filename` , required: filename
 - `-s` , optional: shows the `matplotlib` window
 - `-n` , optional: do not save the spectrum
-- `-e` , optional: export the line spectrum or spectra in a csv-like fashion; filename of the export is Atomname + ".dat" for each atom and "all.dat" for the whole spectrum
+- `-e` , optional: export the line spectrum or spectra in a csv-like fashion; filename of the export is atom or compound label + ".dat" for each atom or compound and "all.dat" for the whole spectrum
 - `-w` `N` , optional: line width (fwhm) of the Lorentzian (default is `N = 0.2`) - ignored if 'fwhm' is specified in a text file with MB parameters
 - `-xmin`  `N` , optional: start spectrum at N mm/s (automatic scaling if not specified)
 - `-xmax`  `N` , optional: end spectrum at N mm/s (automatic scaling if not specified)
