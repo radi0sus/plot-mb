@@ -1,4 +1,4 @@
-# orca-mb
+# plot-mb
 A Python 3 script for (hassle-free) plotting of Mößbauer spectra from [ORCA](https://orcaforum.kofo.mpg.de) 
 output files. The script calculates the isomeric shift δ from ρ(0) according to the equation δ = ɑ*(ρ(0) - C) + β, 
 ΔE<sub>Q</sub> is taken from the ORCA output. 
