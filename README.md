@@ -93,19 +93,21 @@ Output:
 
 ### Example 3:
 ```console
-python3 plot-mb.py test.out -xmin -12 -xmax 12 -sh 2 -s
+python3 plot-mb.py mb-param.txt -xmin -6 -xmax 6 -s
 ```
-Open `test.out`, start the spectrum at -12 mm/s and end at 12 mm/s (`-xmin -12 -xmax 12`), shift δ by 2 mm/s (`-sh 2`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
+Open the text file with MB paramters `mb-param.txt`, start the spectrum at -6 mm/s and end at +6 mm/s (`-xmin -6 -xmax 6`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
-==========================================================
-δ = ɑ(ρ(0) - C) + β (+ shift)
-ɑ=-0.366 C=11810 β=2.852 shift=2.0
-==========================================================
-Fe0: δ=3.78 mm/s ΔEQ=-0.00 mm/s ρ(0)=11812.93015 a.u.⁻³
-==========================================================
+This file does not contain MB parameters from an ORCA calculation.
+Trying to read MB parameters directly.
+=============================================================
+L1Fe: δ = 0.24 mm/s ΔEQ = 1.51 mm/s fwhm = 0.33 ratio = 0.40
+L2Fe: δ = 0.25 mm/s ΔEQ = 3.12 mm/s fwhm = 0.39 ratio = 0.35
+L3Fe: δ =-0.03 mm/s ΔEQ = 1.24 mm/s fwhm = 0.44 ratio = 0.12
+L4Fe: δ =-0.06 mm/s ΔEQ = 0.61 mm/s fwhm = 0.37 ratio = 0.13
+=============================================================
 ```
-![Example 3](/examples/example3.png)
+![Example 3](/examples/example3a.png)
 
 ### Example 4:
 ```console
