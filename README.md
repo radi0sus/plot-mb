@@ -95,7 +95,7 @@ Output:
 ```console
 python3 plot-mb.py mb-param.txt -xmin -6 -xmax 6 -s
 ```
-Open the text file with MB paramters `mb-param.txt`, start the spectrum at -6 mm/s and end at +6 mm/s (`-xmin -6 -xmax 6`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
+Open the text file with MB paramters `mb-param.txt`, start the spectrum at -6 mm/s and end at +6 mm/s (`-xmin -6 -xmax 6`), show the spectrum (`-s`). A PNG of the spectrum is saved as `mb-param-mb.png`.
 Output:
 ```console
 This file does not contain MB parameters from an ORCA calculation.
