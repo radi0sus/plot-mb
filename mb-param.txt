@@ -1,0 +1,44 @@
+#==============================================================================
+# Example of a text file with MB parameters
+#==============================================================================
+# This is a comment.
+# Lines starting with '#' are ignored by the script.
+#
+# The parameters must be entered in the following order:
+# 
+# compound/atom_name_1 δ_1 ΔEQ_1 fwhm_1 ratio_1
+# compound/atom_name_2 δ_2 ΔEQ_2 fwhm_2 ratio_2
+# compound/atom_name_3 δ_3 ΔEQ_3 fwhm_3 ratio_3
+# ...
+# 
+# label =  atom / compound name
+# δ     =  isomeric shift in mm/s
+# ΔEQ   =  quadrupole splitting in mm/s
+# fwhm  =  full width at half maximum; line width for broadening
+# ratio =  ratio of the MB active nucleus
+#
+# 'fwhm' and 'ratio' are optional. If there is no value for 'fwhm', 
+# but there is a value for 'ratio', 'ratio' is considered to be 'fwhm', 
+# because the third parameter in the line is assumed to be 'fwhm'.
+# 
+# If 'fwhm' is not specified it is set to 0.2 and can be changed
+# with the -w option. If 'fwhm' is not specified, then 'ratio' 
+# cannot be specified (see above remark).
+# 
+# If 'ratio' is not specified it is set to 1.
+# Defining a ratio different from 1 or 100% is useful if there is 
+# a main component and an impurity which is also MB active
+# or a mixture of two or more compounds with MB active nuclei.
+#
+# 'ratio' can be defined as 1:2:1:2 for example or 0.15:0.50:0.15:0.20 or 75:25
+#
+# The -a, -b, -C options are ignored in case of MB parameters from a text file.
+# The -w option is ignored if 'fwhm' is specified in the text file.
+#
+#--------------------------------------
+# label |   δ   |  ΔEQ  | fwhm | ratio
+#--------------------------------------
+L1Fe      0.24    1.51    0.33    0.40
+L2Fe      0.25    3.12    0.39    0.35
+L3Fe     -0.03    1.24    0.44    0.12
+L4Fe     -0.06    0.61    0.37    0.13
