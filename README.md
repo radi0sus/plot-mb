@@ -1,9 +1,9 @@
 # plot-mb
 A Python 3 script for (hassle-free) plotting of Mößbauer (MB) spectra from parameter files (text files) or from [ORCA](https://orcaforum.kofo.mpg.de) 
 output files. In case of ORCA output files, the script calculates the isomeric shift δ from ρ(0) according to the equation δ = ɑ*(ρ(0) - C) + β, 
-ΔE<sub>Q</sub> is taken from the ORCA output. 
-The parameters ɑ, C and β can be changed in the script or from the command line. The Mößbauer spectrum is calculated as a summation
-of Lorentz functions. The script can plot and also export single or multiple spectra. 
+ΔE<sub>Q</sub> is taken from the ORCA output. The parameters ɑ, C and β can be changed in the script or from the command line. 
+The script can also read δ, ΔE<sub>Q</sub>, line width (optional) and the ratio (optional) of componentsfrom a text file and plot the Mößbauer (MB) spectra.
+The Mößbauer spectrum is calculated as a summation of Lorentz functions. The script can plot and also export single or multiple spectra. 
 
 ## External modules
  `numpy` 
@@ -47,6 +47,8 @@ If you want to keep the file, you have to rename it.
 The script can only handle singlets and doublets.
 
 The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C according to functional and basis to achieve reasonable results.
+
+For MB parameters from a text file, have a look at [`mb-param.txt`](mb-param.txt). 
 
 ## Examples
 ### Example 1:
