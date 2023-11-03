@@ -59,7 +59,7 @@ For MB parameters from a text file, have a look at [`mb-param.txt`](mb-param.txt
 ```console
 python3 plot-mb.py test.out -w 0.6 -s
 ```
-Open `test.out`, select a line width of 0.6 (`-w 0.6`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
+Open the ORCA output file `test.out`, select a line width of 0.6 (`-w 0.6`), show the spectrum (`-s`). A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
 =============================================================
