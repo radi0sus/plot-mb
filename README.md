@@ -52,7 +52,7 @@ The script can only handle singlets and doublets.
 
 The key for the calculation of the isomeric shift ist the equation δ = ɑ*(ρ(0) - C) + β. You should adjust ɑ, β and C according to functional and basis to achieve reasonable results.
 
-For MB parameters from a text file, have a look at [`mb-param.txt`](mb-param.txt). 
+For MB parameters from a text file, have a look at [`mb-param.txt`](mb-param.txt) and [Example 3](#example-3). 
 
 ## Examples
 ### Example 1:
