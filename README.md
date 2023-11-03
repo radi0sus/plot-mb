@@ -76,19 +76,20 @@ Output:
 ```console
 python3 plot-mb.py test.out -s -e
 ```
-Open `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `Fe0.dat`, `Fe1.dat`, `Fe4.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. A PNG of the spectrum is saved as `test-mb.png`.
+Open the ORCA output file `test.out`, show the spectrum (`-s`), export the data (`-e`). The files `Fe0.dat`, `Fe1.dat`, `Fe4.dat` and `all.dat` containing the data of the doublets and the entire spectrum are saved. 
+A PNG of the spectrum is saved as `test-mb.png`.
 Output:
 ```console
-==========================================================
+=============================================================
 δ = ɑ(ρ(0) - C) + β (+ shift)
-ɑ=-0.366 C=11810 β=2.852 shift=0
-==========================================================
-Fe0: δ=0.61 mm/s ΔEQ=2.37 mm/s ρ(0)=11816.13420 a.u.⁻³
-Fe1: δ=0.88 mm/s ΔEQ=-2.89 mm/s ρ(0)=11815.37543 a.u.⁻³
-Fe4: δ=1.74 mm/s ΔEQ=-2.90 mm/s ρ(0)=11813.03611 a.u.⁻³
-==========================================================
+ɑ = -0.366 C = 11810 β = 2.852 shift = 0
+=============================================================
+0Fe: δ = 0.61 mm/s ΔEQ = 2.37 mm/s ρ(0)=11816.13420 a.u.⁻³
+1Fe: δ = 0.88 mm/s ΔEQ = -2.89 mm/s ρ(0)=11815.37543 a.u.⁻³
+4Fe: δ = 1.74 mm/s ΔEQ = -2.90 mm/s ρ(0)=11813.03611 a.u.⁻³
+=============================================================
 ```
-![Example 2](/examples/example2.png)
+![Example 2](/examples/example2a.png)
 
 ### Example 3:
 ```console
