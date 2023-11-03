@@ -107,7 +107,7 @@ L3Fe: δ =-0.03 mm/s ΔEQ = 1.24 mm/s fwhm = 0.44 ratio = 0.12
 L4Fe: δ =-0.06 mm/s ΔEQ = 0.61 mm/s fwhm = 0.37 ratio = 0.13
 =============================================================
 ```
-![Example 3](/examples/example3a.png)
+![Example 3](/examples/example3b.png)
 
 ### Example 4:
 ```console
