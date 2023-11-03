@@ -5,7 +5,8 @@ output files.
 In case of ORCA output files, the script calculates the isomeric shift δ from ρ(0) according to the equation δ = ɑ*(ρ(0) - C) + β, 
 ΔE<sub>Q</sub> is taken from the ORCA output. The parameters ɑ, C and β can be changed in the script or from the command line.  
 
-The script can also read δ, ΔE<sub>Q</sub>, line width (fwhm, optional) and the ratio (optional) of components from a text file and plot the Mößbauer (MB) spectra.  
+The script can also read δ, ΔE<sub>Q</sub>, line width (fwhm, optional) and the ratio (optional) of components from a text file and plot the Mößbauer (MB) spectra
+(have a look at [`mb-param.txt`](mb-param.txt) and [Example 3](#example-3).  
 
 The Mößbauer spectrum is calculated as a summation of Lorentz functions. The script can plot and also export single or multiple spectra. 
 
