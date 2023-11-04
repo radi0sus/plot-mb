@@ -112,10 +112,10 @@ L4Fe: δ =-0.06 mm/s ΔEQ = 0.61 mm/s fwhm = 0.37 ratio = 0.13
 
 ### Example 4:
 ```console
-python3 plot-mb.py test.out -s
+python3 plot-mb.py test.out -w 0.6 -s
 ```
 ```console
-python3 plot-mb.py mb-param.txt -xmin -6 -xmax 6 -s
+python3 plot-mb.py mb-param.txt -s -xmin -6 -xmax 6
 ```
 
 ![Example 4](/examples/show-use4.gif)
