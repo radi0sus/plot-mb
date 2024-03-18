@@ -414,7 +414,7 @@ for index, ishift in enumerate(ishiftlist):
                 label = nucnamelist[index] + 
                 r': $\delta$ = '+'{:.2f}'.format(ishift) + r' mm$\cdot$s$^{-1}$' +
                 r', $ΔE_Q =$' +'{:.2f}'.format(deltaeqlist[index]) + 
-                ' mm$\cdot$s$^{-1}$', color = 'black') 
+                r' mm$\cdot$s$^{-1}$', color = 'black') 
         if draw_v_line:
             #draw vertical line at I.S. if True
             ax.axvline(x = ishift, linestyle = '--', color = 'black')
@@ -427,7 +427,7 @@ for index, ishift in enumerate(ishiftlist):
                 label = nucnamelist[index] +  
                 r': $\delta$ = '+'{: .2f}'.format(ishift) + r' mm$\cdot$s$^{-1}$' + 
                 r', $ΔE_Q =$' +'{: .2f}'.format(deltaeqlist[index]) + 
-                ' mm$\cdot$s$^{-1}$',alpha = alpha_line) 
+                r' mm$\cdot$s$^{-1}$',alpha = alpha_line) 
         if draw_v_line:
             #draw vertical line at I.S. if True
             ax.axvline(x = ishift, linestyle = '--',color = line.get_color(), alpha = 0.8)
