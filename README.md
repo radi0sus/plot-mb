@@ -1,3 +1,8 @@
+> [!TIP]
+> **Trusty `plot-mb.py` is now available as a web app (thanks to AI)! Enjoy a brand-new interactive interface for ⁵⁷Fe Mößbauer spectra.**  
+> 👉 Try it here: https://radi0sus.github.io/advanced_plot_mb/  
+> 👉 Dive into the [code](https://github.com/radi0sus/advanced_plot_mb).
+
 # plot-mb
 A Python 3 script for (hassle-free) plotting of Mößbauer (MB) spectra from parameter files (text files) or from [ORCA](https://orcaforum.kofo.mpg.de) 
 output files.  
